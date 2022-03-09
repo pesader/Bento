@@ -11,13 +11,13 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Pedro',
   imageBackground: false,
-  openInNewTab: true,
-  twelveHourFormat: false,
+  openInNewTab: false,
+  twelveHourFormat: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
+  greetingMorning: 'Good morning,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
   greetingNight: 'Go to Sleep!',
@@ -26,7 +26,7 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: '12ad8ffc08d5b08675cf694e4f5ff4b4', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -53,39 +53,39 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
+      name: 'NextDNS',
+      icon: 'shield',
+      link: 'https://my.nextdns.io/9c2fa2/analytics',
+    },
+    {
+      id: '2',
+      name: 'BorgBase',
+      icon: 'hard-drive',
+      link: 'https://www.borgbase.com/repositories',
+    },
+    {
+      id: '3',
+      name: 'Carnet',
+      icon: 'list-checks',
+      link: 'https://carnet.live',
+    },
+    {
+      id: '4',
+      name: 'Moodle',
+      icon: 'pencil',
+      link: 'https://moodle.ggte.unicamp.br/',
+    },
+    {
+      id: '5',
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
     },
     {
-      id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
-    },
-    {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
-    },
-    {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
-    },
-    {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Z-Library',
+      icon: 'library',
+      link: 'https://br1lib.org/',
     },
   ],
 
@@ -157,24 +157,24 @@ const CONFIG = {
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'carrot',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Panelinha',
+          link: 'https://www.panelinha.com.br/home/receitas',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Tastemade',
+          link: 'https://www.tastemade.com.br/receitas/',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Bon Appétit',
+          link: 'https://www.bonappetit.com/recipes',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Babish',
+          link: 'https://www.bingingwithbabish.com/recipes/',
         },
       ],
     },
