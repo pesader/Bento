@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Z-Library',
-      icon: 'library',
-      link: 'https://br1lib.org/',
+      name: 'Google Classroom',
+      icon: 'graduation-cap',
+      link: 'https://classroom.google.com/',
     },
   ],
 
