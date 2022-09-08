@@ -85,7 +85,7 @@ const CONFIG = {
       id: '6',
       name: 'Google Classroom',
       icon: 'graduation-cap',
-      link: 'https://classroom.google.com/',
+      link: 'https://classroom.google.com/u/0/h',
     },
   ],
 
